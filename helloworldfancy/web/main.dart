@@ -10,4 +10,10 @@ void main() {
 void sayHello(MouseEvent event) {
   querySelector("#name").text = (querySelector("#name_box") as InputElement).value;
   (querySelector("#name_box") as InputElement).value = "";
+
+  querySelector("#age").text = (querySelector("#age_box") as InputElement).value;
+  (querySelector("#age_box") as InputElement).value = "";
+
+  querySelector("#origin").text = (querySelector("#origin_box") as InputElement).value;
+  (querySelector("#origin_box") as InputElement).value = "";
 }
